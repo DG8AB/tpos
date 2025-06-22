@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C.0 AI Competition Signup</title>
+  <link rel="stylesheet" href="/neon.css">
+</head>
+<body>
+  <div class="logo-corner">
+    <svg viewBox="0 0 220 64" fill="none">
+      <circle cx="25" cy="32" r="22" fill="#1e90ff" stroke="#fff" stroke-width="3"/>
+      <text x="16" y="44" font-size="27" font-family="monospace" font-weight="bold" fill="#fff">C</text>
+      <circle cx="55" cy="32" r="22" fill="#222e38" stroke="#1e90ff" stroke-width="3"/>
+      <text x="49" y="44" font-size="27" font-family="monospace" font-weight="bold" fill="#1e90ff">.</text>
+      <rect x="75" y="16" width="124" height="32" rx="10" fill="#222e38" stroke="#1e90ff" stroke-width="2"/>
+      <text x="88" y="39" font-size="20" font-family="monospace" fill="#fff" font-weight="bold" letter-spacing="2">
+        AI Competition
+      </text>
+    </svg>
+    <div class="socials">
+      <a href="https://youtube.com/@dg8ab" target="_blank" rel="noopener">
+        <span style="font-size:1.2em;vertical-align:middle;">&#x1F4FA;</span> Youtube
+      </a>
+    </div>
+    <div class="dg8ab-name">by DG8AB</div>
+  </div>
+  <div class="container">
+    <h1>C.0 AI Competition</h1>
+    <form id="signup-form" autocomplete="off">
+      <div>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required maxlength="40" autocomplete="off" placeholder="eg. Alex">
+      </div>
+      <div>
+        <label for="number">Phone Number</label>
+        <input type="tel" id="number" required maxlength="20" autocomplete="off" placeholder="eg. 15551234567">
+      </div>
+      <button type="submit" id="signup-btn">Sign up &amp; Create your AI</button>
+    </form>
+    <div id="signup-msg"></div>
+  </div>
+  <div id="block-screen" style="display:none;">
+    <div>
+      <span>Access Denied</span>
+      <hr style="width:60%;border:1px solid #333;">
+      <div style="font-size:0.7em;opacity:0.7;">This app is only available via DG8AB</div>
+    </div>
+  </div>
+  <script src="/signup.js"></script>
+</body>
+</html>
